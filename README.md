@@ -12,7 +12,7 @@ In this project, I will make use of Python to explore data related to bike share
 In this project, the following software requirements apply:
 
 1- Python.
-2- A text editor, like Atom. (to download : https://atom.io/)
+2- A text editor, like Atom. (to download: https://atom.io/)
 3- A terminal application.
 
 ### Dataset files
