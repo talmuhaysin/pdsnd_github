@@ -22,7 +22,7 @@ def get_filters():
             if(city == 'chicago' or city == 'new york city' or city == 'washington'):
                 break
             else:
-                city = input('Enter valid city: ').lower()
+                city = input('please type correct city: ').lower()
 
     # get user input for month (all, january, february, ... , june)
     month = input('\nWhich month would you like to show data for ? January, February, March, April, May, or June or All to display data of all months?\n').lower().capitalize()
@@ -30,7 +30,7 @@ def get_filters():
             if(month == 'January' or month == 'February' or month == 'March' or month == 'April' or month == 'May' or month == 'June' or month == 'All'):
                 break
             else:
-                month = input('Enter valid month\n').lower()
+                month = input('please type correct month\n').lower()
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day =  input('Which day would you like to show data for ? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday , Sunday or All to display data of all days?\n').lower().capitalize()
     while(True):
@@ -38,7 +38,7 @@ def get_filters():
             if(day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' or day == 'Thursday' or day == 'Friday' or day == 'Saturday' or day == 'Sunday' or day == 'All'):
                 break
             else:
-                day = input('Enter valid day: ').lower()
+                day = input('please type correct day: ').lower()
     print('-'*40)
     return city, month, day
 
